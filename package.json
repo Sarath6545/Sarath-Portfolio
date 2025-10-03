@@ -1,6 +1,6 @@
 {
   "name": "portfolio_react",
-  "homepage": "https://Sarath6545.github.io/Sarath-Portfolio/",
+  "homepage": "https://sarath6545.github.io/Sarath-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
